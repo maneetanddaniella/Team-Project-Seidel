@@ -1,0 +1,83 @@
+
+html {
+font-family: 'Epilogue', sans-serif;
+background-image: linear-gradient(to bottom right, #ffbf81ff, #f25f84ff);
+background-size: 1920px 1080px;
+}
+
+h1 {
+  font-size: 80px;
+  color: #55286F;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Epilogue:wght@500', sans-serif;
+  font-size: 30px;
+  color: white; 
+  }
+
+
+body {
+  width: 800px;
+  background-color: #ead1dcff;
+  padding: 10px 10px 10px 10px;
+  border: 10px solid #ead1dcff;
+  margin: auto;
+  position: relative;
+  top: 270px;
+
+}
+
+#begin {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 30px;
+  border-radius: 12px;
+  text-align:center;
+  background-color:#55286F;
+  color: white; 
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  top:-40px;
+  left: 220px;
+}
+
+body {
+  box-shadow: 7px 7px 10px gray;
+}
+
+p {
+  color: white
+}
+
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;  
+  width: 100%; 
+  height: 25px; 
+  background: #ffbf81ff;
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
