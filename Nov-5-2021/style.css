@@ -1,0 +1,156 @@
+
+html {
+font-family: 'Epilogue', sans-serif;
+background-image: linear-gradient(to bottom right, #ffbf81ff, #f25f84ff);
+background-size: 1920px 1080px;
+}
+
+h1 {
+  font-size: 80px;
+  color: #55286F;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Epilogue:wght@500', sans-serif;
+  font-size: 30px;
+  color: white; 
+  }
+
+
+body {
+  width: 800px;
+  background-color: #ead1dcff;
+  padding: 10px 10px 10px 10px;
+  border: 10px solid #ead1dcff;
+  margin: auto;
+  position: relative;
+  top: 270px;
+}
+
+#bodyExercise {
+  height: 450px;
+  width: 800px;
+  background-color: #ead1dcff;
+  padding: 10px 10px 10px 10px;
+  border: 10px solid #ead1dcff;
+  margin: auto;
+  position: relative;
+  top: 200px;
+
+}
+
+#beginCheckup {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 30px;
+  border-radius: 12px;
+  text-align:center;
+  background-color:#55286F;
+  color: white; 
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  top:-40px;
+  left: 220px;
+}
+
+#beginExercise {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 20px;
+  border-radius: 12px;
+  text-align:center;
+  background-color:#55286F;
+  color: white; 
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  left: 330px;
+  top: 400px;
+}
+
+body {
+  box-shadow: 7px 7px 10px gray;
+}
+
+p {
+  color: white
+}
+
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;  
+  width: 100%; 
+  height: 25px; 
+  background: #ffbf81ff;
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 25px; 
+  height: 25px; 
+  background: #04AA6D; 
+  cursor: pointer; 
+}
+
+#countdown {
+  background-color:#55286F;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center
+  font-size: 50px;
+  height: 70px;
+  width: 200px;
+}
+
+#smallText {
+  font-family:cursive;
+  font-size: 16px;
+  text-align:center;
+  color:black; 
+  position: relative;
+  top: -40px;
+}
+
+#breathingCircle{
+  height:100px;
+  width: 100px;
+  margin: auto;
+  background-color:lightblue;
+  border-radius: 50%;
+}
+
+@keyframes circleAnimation{
+0% {background-color:lightblue;height:80px;width:80px;}
+40%{background-color:bisque;height:150px;width:150px;}
+60% {background-color:bisque;height:150px;width:150px;}
+100%{background-color:lightblue;height:80px;width:80px;}
+}
+
+#timerBar{
+  height:50px;
+  width: 600px;
+  margin: auto;
+  background-color:lightblue;
+}
+#timerBarFill{
+  height:50px;
+  width:0px;
+  margin: auto;
+  top: 350px;
+  background-color:darkred;
+}
+
+@keyframes barAnimation{
+  from{width:0px;}
+  to{width:600px;}
+}
